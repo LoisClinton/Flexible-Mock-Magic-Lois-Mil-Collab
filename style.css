@@ -2,12 +2,22 @@
 * {
   font-family: sans-serif;
   font-size: 20px;
+  padding: 0%;
+  margin: 0%;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
-  width: 100vw;
+  width: 100%;
   background-color: #59d9a1;
-  padding-left: 30px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -15,6 +25,7 @@
 }
 
 .nav-links {
+  display: flex;
   list-style: none;
 }
 
@@ -72,6 +83,8 @@ footer img {
 }
 
 footer {
+  display: flex;
+  justify-content: space-around;
   width: 100%;
   padding: 1rem;
   background-color: #59d9a1;
