@@ -91,3 +91,23 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+.flex-main {
+  display: flex;
+}
+
+.flex-main .sidebar {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-main .main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-main .main-content .image-container:nth-child(3n + 2) {
+  flex-grow: 2;
+}
